@@ -13,6 +13,11 @@
 		102A48AC284B5FBA00664535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102A48AB284B5FBA00664535 /* AppDelegate.swift */; };
 		102A48AE284B5FCC00664535 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102A48AD284B5FCC00664535 /* SceneDelegate.swift */; };
 		102A48B4284B636D00664535 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102A48B3284B636D00664535 /* Launch Screen.storyboard */; };
+		1080C6FF284B695D00CD7746 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C6FE284B695D00CD7746 /* AppEnvironment.swift */; };
+		1080C702284B69A300CD7746 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C701284B69A300CD7746 /* DependencyInjector.swift */; };
+		1080C705284B69E000CD7746 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C704284B69E000CD7746 /* Store.swift */; };
+		1080C707284B6A0B00CD7746 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C706284B6A0B00CD7746 /* Loadable.swift */; };
+		1080C709284B6A3500CD7746 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C708284B6A3500CD7746 /* CancelBag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		102A48AB284B5FBA00664535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		102A48AD284B5FCC00664535 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		102A48B3284B636D00664535 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1080C6FE284B695D00CD7746 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		1080C701284B69A300CD7746 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		1080C704284B69E000CD7746 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		1080C706284B6A0B00CD7746 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		1080C708284B6A3500CD7746 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,8 @@
 		102A489C284B5DB200664535 /* BookLibraryMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				1080C703284B69D200CD7746 /* Utilities */,
+				1080C700284B698A00CD7746 /* Inject */,
 				102A48B8284B64C200664535 /* Resources */,
 				102A48B6284B64A100664535 /* UI */,
 				102A48B5284B647F00664535 /* System */,
@@ -75,6 +87,7 @@
 			children = (
 				102A48AB284B5FBA00664535 /* AppDelegate.swift */,
 				102A48AD284B5FCC00664535 /* SceneDelegate.swift */,
+				1080C6FE284B695D00CD7746 /* AppEnvironment.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -103,6 +116,24 @@
 				102A48B3284B636D00664535 /* Launch Screen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1080C700284B698A00CD7746 /* Inject */ = {
+			isa = PBXGroup;
+			children = (
+				1080C701284B69A300CD7746 /* DependencyInjector.swift */,
+			);
+			path = Inject;
+			sourceTree = "<group>";
+		};
+		1080C703284B69D200CD7746 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1080C704284B69E000CD7746 /* Store.swift */,
+				1080C706284B6A0B00CD7746 /* Loadable.swift */,
+				1080C708284B6A3500CD7746 /* CancelBag.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +208,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				102A48AC284B5FBA00664535 /* AppDelegate.swift in Sources */,
+				1080C707284B6A0B00CD7746 /* Loadable.swift in Sources */,
+				1080C709284B6A3500CD7746 /* CancelBag.swift in Sources */,
+				1080C702284B69A300CD7746 /* DependencyInjector.swift in Sources */,
+				1080C6FF284B695D00CD7746 /* AppEnvironment.swift in Sources */,
+				1080C705284B69E000CD7746 /* Store.swift in Sources */,
 				102A48A0284B5DB200664535 /* ContentView.swift in Sources */,
 				102A48AE284B5FCC00664535 /* SceneDelegate.swift in Sources */,
 			);
