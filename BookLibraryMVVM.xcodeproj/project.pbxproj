@@ -18,6 +18,8 @@
 		1080C705284B69E000CD7746 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C704284B69E000CD7746 /* Store.swift */; };
 		1080C707284B6A0B00CD7746 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C706284B6A0B00CD7746 /* Loadable.swift */; };
 		1080C709284B6A3500CD7746 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C708284B6A3500CD7746 /* CancelBag.swift */; };
+		1080C70B284B6AED00CD7746 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C70A284B6AED00CD7746 /* AppState.swift */; };
+		1080C70D284B6C9E00CD7746 /* ServicesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080C70C284B6C9E00CD7746 /* ServicesContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		1080C704284B69E000CD7746 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		1080C706284B6A0B00CD7746 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 		1080C708284B6A3500CD7746 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		1080C70A284B6AED00CD7746 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1080C70C284B6C9E00CD7746 /* ServicesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				1080C701284B69A300CD7746 /* DependencyInjector.swift */,
+				1080C70A284B6AED00CD7746 /* AppState.swift */,
+				1080C70C284B6C9E00CD7746 /* ServicesContainer.swift */,
 			);
 			path = Inject;
 			sourceTree = "<group>";
@@ -210,9 +216,11 @@
 				102A48AC284B5FBA00664535 /* AppDelegate.swift in Sources */,
 				1080C707284B6A0B00CD7746 /* Loadable.swift in Sources */,
 				1080C709284B6A3500CD7746 /* CancelBag.swift in Sources */,
+				1080C70B284B6AED00CD7746 /* AppState.swift in Sources */,
 				1080C702284B69A300CD7746 /* DependencyInjector.swift in Sources */,
 				1080C6FF284B695D00CD7746 /* AppEnvironment.swift in Sources */,
 				1080C705284B69E000CD7746 /* Store.swift in Sources */,
+				1080C70D284B6C9E00CD7746 /* ServicesContainer.swift in Sources */,
 				102A48A0284B5DB200664535 /* ContentView.swift in Sources */,
 				102A48AE284B5FCC00664535 /* SceneDelegate.swift in Sources */,
 			);

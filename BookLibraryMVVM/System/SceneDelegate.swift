@@ -15,9 +15,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        let environment = AppEnvironment.bootstrap()
+        
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: ContentView())
+            window.rootViewController = UIHostingController(
+                rootView: ContentView(
+                    viewModel: ContentView.ViewModel(container: environment.container)
+                )
+            )
             self.window = window
             window.makeKeyAndVisible()
         }
