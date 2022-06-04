@@ -55,12 +55,9 @@
 		102A489C284B5DB200664535 /* BookLibraryMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				102A489F284B5DB200664535 /* ContentView.swift */,
-				102A48A1284B5DB500664535 /* Assets.xcassets */,
-				102A48A3284B5DB500664535 /* Preview Content */,
-				102A48AB284B5FBA00664535 /* AppDelegate.swift */,
-				102A48AD284B5FCC00664535 /* SceneDelegate.swift */,
-				102A48B3284B636D00664535 /* Launch Screen.storyboard */,
+				102A48B8284B64C200664535 /* Resources */,
+				102A48B6284B64A100664535 /* UI */,
+				102A48B5284B647F00664535 /* System */,
 			);
 			path = BookLibraryMVVM;
 			sourceTree = "<group>";
@@ -71,6 +68,41 @@
 				102A48A4284B5DB500664535 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		102A48B5284B647F00664535 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				102A48AB284B5FBA00664535 /* AppDelegate.swift */,
+				102A48AD284B5FCC00664535 /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		102A48B6284B64A100664535 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				102A48B7284B64AB00664535 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		102A48B7284B64AB00664535 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				102A489F284B5DB200664535 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		102A48B8284B64C200664535 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				102A48A1284B5DB500664535 /* Assets.xcassets */,
+				102A48A3284B5DB500664535 /* Preview Content */,
+				102A48B3284B636D00664535 /* Launch Screen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +306,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BookLibraryMVVM/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BookLibraryMVVM/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BookLibraryMVVM/Info.plist;
@@ -302,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BookLibraryMVVM/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BookLibraryMVVM/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BookLibraryMVVM/Info.plist;
